@@ -2,7 +2,7 @@
 
 #import <Cordova/CDVAvailability.h>
 
-@implementation MyCordovaPlugin
+@implementation CordovaGrpc
 
 - (void)pluginInitialize {
 }
