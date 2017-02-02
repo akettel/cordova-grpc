@@ -8,7 +8,7 @@
 }
 
 -(void)startServer:(CDVInvokedUrlCommand *)command {
-  NSInteger* port = [command.arguments objectAtIndex:0];
+  NSInteger port = [command.arguments objectAtIndex:0];
   NSLog(@"%@", port);
 }
 
